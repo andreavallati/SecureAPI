@@ -3,6 +3,8 @@
 ## Overview
 SecureAPI is a .NET Core Web API that provides authentication and authorization using JWT (JSON Web Token). The project includes role-based access control and secure endpoints. It is designed to offer a secure and scalable authentication system for APIs.
 
+---
+
 ## Features
 - JWT-based authentication
 - Role-based authorization
@@ -12,9 +14,13 @@ SecureAPI is a .NET Core Web API that provides authentication and authorization 
 - Extensible service-based architecture
 - Error handling and logging support
 
+---
+
 ## Technologies Used
 - .NET Core
 - ASP.NET Core Web API
+
+---
 
 ## API Endpoints
 | Method | Endpoint                          | Description                                  |
@@ -26,6 +32,8 @@ SecureAPI is a .NET Core Web API that provides authentication and authorization 
 | GET    | /api/test/admin                 | Admin-only endpoint (Requires Admin role)   |
 | GET    | /api/test/admin-policy-secured  | Secured with Admin Policy                   |
 | GET    | /api/test/user-policy-secured   | Secured with User Policy                    |
+
+---
 
 ## Installation
 ### Prerequisites
@@ -87,3 +95,11 @@ SecureAPI is a .NET Core Web API that provides authentication and authorization 
 - **JWT settings**: Defined in `appsettings.json`
 - **Roles and policies**: Managed in `RoleAuthorizationHandler.cs`
 - **Database connection**: Configured in `appsettings.json` if applicable
+
+---
+
+<div align="center">
+
+**Happy Coding!**
+
+</div>
