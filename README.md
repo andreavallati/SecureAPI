@@ -33,12 +33,6 @@ A comprehensive .NET 8 Web API project demonstrating **TWO different approaches*
 
 ---
 
-## Technologies Used
-- .NET Core
-- ASP.NET Core Web API
-
----
-
 ## API Endpoints
 | Method | Endpoint                          | Description                                  |
 |--------|----------------------------------|----------------------------------------------|
@@ -49,38 +43,6 @@ A comprehensive .NET 8 Web API project demonstrating **TWO different approaches*
 | GET    | /api/test/admin                 | Admin-only endpoint (Requires Admin role)   |
 | GET    | /api/test/admin-policy-secured  | Secured with Admin Policy                   |
 | GET    | /api/test/user-policy-secured   | Secured with User Policy                    |
-
----
-
-## Installation
-### Prerequisites
-
-- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
-- [Visual Studio 2022](https://visualstudio.microsoft.com/) or [VS Code](https://code.visualstudio.com/)
-- [Postman](https://www.postman.com/) or similar API testing tool (optional)
-
-### Steps
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/andreavallati/SecureAPI.git
-   cd SecureAPI
-   ```
-
-2. **Restore dependencies**
-   ```bash
-   dotnet restore
-   ```
-
-3. **Run the application**
-   ```bash
-   dotnet run
-   ```
-
-4. **Access Swagger UI**
-   ```
-   https://localhost:5001/swagger
-   ```
 
 ---
 
@@ -301,6 +263,44 @@ public async Task<IActionResult> Register([FromBody] RegisterRequest request)
     return Ok("Please check your email to verify your account");
 }
 ```
+
+---
+
+## Technologies Used
+- .NET Core
+- ASP.NET Core Web API
+
+---
+
+## Installation
+### Prerequisites
+
+- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
+- [Visual Studio 2022](https://visualstudio.microsoft.com/) or [VS Code](https://code.visualstudio.com/)
+- [Postman](https://www.postman.com/) or similar API testing tool (optional)
+
+### Steps
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/andreavallati/SecureAPI.git
+   cd SecureAPI
+   ```
+
+2. **Restore dependencies**
+   ```bash
+   dotnet restore
+   ```
+
+3. **Run the application**
+   ```bash
+   dotnet run
+   ```
+
+4. **Access Swagger UI**
+   ```
+   https://localhost:5001/swagger
+   ```
 
 ---
 
